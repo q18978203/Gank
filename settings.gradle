@@ -1,0 +1,2 @@
+include ':app', ':http'
+project(':http').projectDir = new File('library/http')
